@@ -1,19 +1,19 @@
 1.  To load data
-GET https://swift-backend-assignment-1.onrender.com/load
+GET https://swift-backend-assignment-1.onrender.com/api/load
 
 2.  Get User by ID
-GET https://swift-backend-assignment-1.onrender.com/users/{userId}
-   ex : GET https://swift-backend-assignment-1.onrender.com/users/65f9b9d8c1a34f001e8e9f90
+GET https://swift-backend-assignment-1.onrender.com/api/users/{userId}
+   ex : GET https://swift-backend-assignment-1.onrender.com/api/users/67d93fcfd5adddaa707a2b89
 
 3. 🗑 Delete All Users
-DELETE https://swift-backend-assignment-1.onrender.com/users
+DELETE https://swift-backend-assignment-1.onrender.com/api/users
 
 4. 🗑 Delete Specific User
-DELETE https://swift-backend-assignment-1.onrender.com/users/{userId} 
-  ex : DELETE https://swift-backend-assignment-1.onrender.com/users/65f9b9d8c1a34f001e8e9f90
+DELETE https://swift-backend-assignment-1.onrender.com/api/users/{userId} 
+  ex : DELETE https://swift-backend-assignment-1.onrender.com/api/users/67d93fcfd5adddaa707a2b89
 
 5.➕ Add New User
-PUT https://swift-backend-assignment-1.onrender.com/users
+PUT https://swift-backend-assignment-1.onrender.com/api/users
 ex : {
   "name": "lokesh",
   "username": "lokesh143",
