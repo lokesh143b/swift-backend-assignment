@@ -1,0 +1,23 @@
+1.  To load data
+GET https://swift-backend-assignment-1.onrender.com/load
+
+2.  Get User by ID
+GET https://swift-backend-assignment-1.onrender.com/users/{userId}
+   ex : GET https://swift-backend-assignment-1.onrender.com/users/65f9b9d8c1a34f001e8e9f90
+
+3. 🗑 Delete All Users
+DELETE https://swift-backend-assignment-1.onrender.com/users
+
+4. 🗑 Delete Specific User
+DELETE https://swift-backend-assignment-1.onrender.com/users/{userId} 
+  ex : DELETE https://swift-backend-assignment-1.onrender.com/users/65f9b9d8c1a34f001e8e9f90
+
+5.➕ Add New User
+PUT https://swift-backend-assignment-1.onrender.com/users
+ex : {
+  "name": "lokesh",
+  "username": "lokesh143",
+  "email": "lokesh@example.com",
+  "phone": "123-456-7890",
+  "website": "lokesh.com"
+}
